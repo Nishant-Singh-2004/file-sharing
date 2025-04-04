@@ -34,8 +34,23 @@ and run the sql commands file inn it .
 
 Open the project in IntelliJ IDEA (or any Java IDE).
 
-Compile and run the main server and client files.
-create multiple clients and use the application
+Compile and run the main server and client file.
+create multiple clients and use the application.
+
+To use the application First enter the username and connect to the server.
+Then first from the dropdown click on create to create a chatroom and in the room name enter the name of room and click send
+the server will create a room id for it.
+
+Then on another client, from the dropdown click on /join and then enter room id and click send, now another client has been added to the room 
+and then from dropdown click on regular message and start messaging.
+
+To send files from the drop down select /file  or click on send file button and then from send file button chose the file you want to share and click send
+and everyone in the room will get the file and download option.
+
+To leave the room from the dropdown select /leave andthen click on send you will leave the chatroom.
+
+To disconnect click on disconnect button next to your username and you will be disconnected from the server.
+
 
 🛠️ Technologies Used
 
